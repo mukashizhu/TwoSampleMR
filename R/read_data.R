@@ -172,7 +172,7 @@ format_data <- function(dat, type="exposure", snps=NULL, header=TRUE,
 	{
 		stop("None of the specified columns present")
 	}
-	dat <- dat[,i]
+	dat <- dat[,..i]
 
 	if(! snp_col %in% names(dat))
 	{
